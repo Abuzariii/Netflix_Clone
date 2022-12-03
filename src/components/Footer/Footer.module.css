@@ -1,0 +1,60 @@
+footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    color: rgb(101, 92, 92);
+    font-size: 1.1rem;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+footer p:hover{
+    cursor: pointer;
+    color: rgb(202, 189, 189);
+}
+.footerHeader{
+    width: 60%;
+    height: 10%;
+}
+.footerContainer{
+    width: 60%;
+    height: 50%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+.footerContainer > div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.footerContainer > div > div{
+    width: 50%;
+    height: 100%;
+}
+
+/* Media Queries */
+@media(max-width:1000px){
+    footer{
+        height: 550px;
+    }
+    footer p{
+        font-size: 1rem;
+    }
+    .footerHeader{
+        width: 90%;
+    }
+    .footerContainer{
+        width: 90%;
+        height: 65%;
+        flex-direction: column;
+    }
+    .footerContainer > div{
+        width: 100%;
+        height: 50%;
+    }
+}

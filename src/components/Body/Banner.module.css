@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+.firstDiv {
+    height: 100vh;
+    width: 100%;
+    margin: 0 ;
+    background-size: 100%;
+    padding: 0;
+}
+.firstDiv > div{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.firstDiv > div > h1{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 50%;
+    top: 25%;
+    left: 3%;
+    color: white;
+    font-size: 2.3rem;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.firstDiv > div > p{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    color: white;
+    position: relative;
+    top: 40%;
+    left: 3%;
+    font-size: 1.3rem;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.buttonsDiv{
+    position: relative;
+    top: 45%;
+    left: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    height: fit-content;
+}
+.playDiv{
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.playBtn{
+    width: 35px;
+    height: 35px;
+}
+.playDiv > p{
+    margin: 0;
+}
+.addListDiv{
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
+    background-color: rgba(90, 84, 84, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1.3rem;
+    padding-right: 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.addListDiv:hover{
+    background-color: rgb(0, 0, 0);
+}
+.addListBtn {
+    width: 35px;
+    height: 38px;
+    color: white;
+}
+.addListDiv > p{
+    margin: 0;
+}
+/* Media Queries */
+@media(max-width:1000px){
+    .firstDiv > div > h1{
+        font-size: 1.8rem;
+        width: 85%;
+    }
+    .firstDiv > div > p{
+        width: 85%;
+        font-size: 1.1rem;
+    }
+    .buttonsDiv{
+        width: 70%;
+    }
+}

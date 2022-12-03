@@ -1,0 +1,27 @@
+.poster{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 250px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+}
+.poster::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.poster > img{
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.poster > img:hover{
+    cursor: pointer;
+}
+.genreTitle{
+    color: white;
+    width: fit-content;
+    margin-left: 3%;
+}
